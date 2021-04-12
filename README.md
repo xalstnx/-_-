@@ -39,9 +39,16 @@
 우측 하단의 챗봇 버튼을 클릭하면 챗봇을 채팅방을 열 수 있음.
 많은 홈페이지들이 챗봇버튼을 우측 하단에 위치시켰기 때문에 이 프로젝트에도 우측 하단에 자리함.(화면 스크롤시 우측 하단 위치에 고정되어 위치하여 있음)
 X버튼 클릭시 채팅방 사라짐.
+<br>
 ![image](https://user-images.githubusercontent.com/22045179/114434901-83ca3e00-9bfe-11eb-891d-294f7df82671.png)
+<br>
 NLP와 MRC를 이용하였기 때문에 질문의 형식을 다양하게 할 수 있음. (EX. 감자의 보관법은? | 감자 보관법은 뭐야? | 감자 보관법 | 감자 보관하는 방법알려줘 등등)
+<br>
 ![image](https://user-images.githubusercontent.com/22045179/114435595-4ade9900-9bff-11eb-8609-7d8def71ccce.png)
+<br>
 채팅방의 형식으로 사용자가 한 질문과 그에 대한 대답을 출력함.
+<br>
 ![image](https://user-images.githubusercontent.com/22045179/114435710-6fd30c00-9bff-11eb-9752-475fee5fe0c5.png)
+<br>
 채팅방처럼 계속하여 질문 할 수 있고, 전에 질문한 것들과 답들을 스크롤하여 볼 수 있음.
+<br>
