@@ -103,14 +103,18 @@ NLP와 MRC를 이용하였기 때문에 질문의 형식을 다양하게 할 수
 (bad : 건강정보 체크박스를 선택하지 않은 경우, good : 건강정보 체크박스를 선택한 경우)
 (흰박스의 경우 ip주소가 쓰여져 있어 가림)
 
+---
+
 ### 실시간 음식 상세정보 크롤링, YOUTUBE관련 동영상 검색 API
 ![image](https://user-images.githubusercontent.com/22045179/114439532-0a354e80-9c04-11eb-8499-66eb0b081433.png)
 검색결과 페이지에서 상세정보를 알고자 하는 음식명을 누르면 상세정보 페이지로 이동되면서 API호출
-API호출시 해당 음식의 ID값으로 네이버 지식백과에서 내용 크롤링 후 사용자에게 출력(예제의 해물볶음면 지식백과 링크 https://terms.naver.com/entry.naver?docId=1991486&cid=48162&categoryId=48198)
+API호출시 해당 음식의 ID값으로 네이버 지식백과에서 내용 크롤링 후 사용자에게 출력
 
 ![image](https://user-images.githubusercontent.com/22045179/114439973-90519500-9c04-11eb-8b2e-fee6745479eb.png)
 ![image](https://user-images.githubusercontent.com/22045179/114440007-99426680-9c04-11eb-8b66-bcfba1e6d049.png)
-![image](https://user-images.githubusercontent.com/22045179/114440038-a1020b00-9c04-11eb-8ceb-d0266adc9149.png)
+![image](https://user-images.githubusercontent.com/22045179/114440471-271e5180-9c05-11eb-9d5e-a54164c52782.png)
 
+![image](https://user-images.githubusercontent.com/22045179/114440038-a1020b00-9c04-11eb-8ceb-d0266adc9149.png)
 YOUTUBE 키워드 검색 API를 통해 "음식명+만들기" 로 API에 검색하여 상위의 동영상을 사용자에게 출력
+
 ![image](https://user-images.githubusercontent.com/22045179/114440197-cf7fe600-9c04-11eb-9d23-f24feed30a52.png)
