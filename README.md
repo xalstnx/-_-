@@ -109,6 +109,7 @@ NLP와 MRC를 이용하였기 때문에 질문의 형식을 다양하게 할 수
 ![image](https://user-images.githubusercontent.com/22045179/114439532-0a354e80-9c04-11eb-8499-66eb0b081433.png)
 검색결과 페이지에서 상세정보를 알고자 하는 음식명을 누르면 상세정보 페이지로 이동되면서 API호출
 API호출시 해당 음식의 ID값으로 네이버 지식백과에서 내용 크롤링 후 사용자에게 출력
+![image](https://user-images.githubusercontent.com/22045179/114440679-62b91b80-9c05-11eb-9358-183aa3744569.png)
 
 ![image](https://user-images.githubusercontent.com/22045179/114439973-90519500-9c04-11eb-8b2e-fee6745479eb.png)
 ![image](https://user-images.githubusercontent.com/22045179/114440007-99426680-9c04-11eb-8b66-bcfba1e6d049.png)
