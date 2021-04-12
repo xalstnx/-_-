@@ -31,3 +31,17 @@
 음식의 상세 정보(ex. 요리법, 요리재료, 기본정보, 요리과정, 음식정보)를 출력함.
 ![image](https://user-images.githubusercontent.com/22045179/114433243-8f1c6a00-9bfc-11eb-9ae9-7b264cc2973f.png)
 모든 음식 상세정보의 하단에 youtube api를 이용하여 해당음식 만드는법에 대한 영상을 <iframe>으로 출력.
+  
+### 챗봇
+재료의 상세 위주의 챗봇 시스템
+재료에 대하여 자세히 알고 싶은 내용을 질문하면 NLP를 이용하여 질문의 핵심 재료를 찾고 미리 구성된 DB에 해당 재료가 있으면 DB의 문단에서 MRC를 이용하여 질문에 대한 답을 추론하여 사용자에게 출력함.
+![image](https://user-images.githubusercontent.com/22045179/114434760-54b3cc80-9bfe-11eb-9a8c-fe2c1fdf8da4.png)
+우측 하단의 챗봇 버튼을 클릭하면 챗봇을 채팅방을 열 수 있음.
+많은 홈페이지들이 챗봇버튼을 우측 하단에 위치시켰기 때문에 이 프로젝트에도 우측 하단에 자리함.(화면 스크롤시 우측 하단 위치에 고정되어 위치하여 있음)
+X버튼 클릭시 채팅방 사라짐.
+![image](https://user-images.githubusercontent.com/22045179/114434901-83ca3e00-9bfe-11eb-891d-294f7df82671.png)
+NLP와 MRC를 이용하였기 때문에 질문의 형식을 다양하게 할 수 있음. (EX. 감자의 보관법은? | 감자 보관법은 뭐야? | 감자 보관법 | 감자 보관하는 방법알려줘 등등)
+![image](https://user-images.githubusercontent.com/22045179/114435595-4ade9900-9bff-11eb-8609-7d8def71ccce.png)
+채팅방의 형식으로 사용자가 한 질문과 그에 대한 대답을 출력함.
+![image](https://user-images.githubusercontent.com/22045179/114435710-6fd30c00-9bff-11eb-9752-475fee5fe0c5.png)
+채팅방처럼 계속하여 질문 할 수 있고, 전에 질문한 것들과 답들을 스크롤하여 볼 수 있음.
