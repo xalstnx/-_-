@@ -110,6 +110,7 @@ NLP와 MRC를 이용하였기 때문에 질문의 형식을 다양하게 할 수
 검색결과 페이지에서 상세정보를 알고자 하는 음식명을 누르면 상세정보 페이지로 이동되면서 API호출
 API호출시 해당 음식의 ID값으로 네이버 지식백과에서 내용 크롤링 후 사용자에게 출력
 ![image](https://user-images.githubusercontent.com/22045179/114440679-62b91b80-9c05-11eb-9358-183aa3744569.png)
+(흰박스의 경우 ip주소가 쓰여져 있어 가림)
 
 ![image](https://user-images.githubusercontent.com/22045179/114439973-90519500-9c04-11eb-8b2e-fee6745479eb.png)
 ![image](https://user-images.githubusercontent.com/22045179/114440007-99426680-9c04-11eb-8b66-bcfba1e6d049.png)
@@ -119,3 +120,16 @@ API호출시 해당 음식의 ID값으로 네이버 지식백과에서 내용 �
 YOUTUBE 키워드 검색 API를 통해 "음식명+만들기" 로 API에 검색하여 상위의 동영상을 사용자에게 출력
 
 ![image](https://user-images.githubusercontent.com/22045179/114440197-cf7fe600-9c04-11eb-9d23-f24feed30a52.png)
+
+---
+
+### 챗봇 API
+![image](https://user-images.githubusercontent.com/22045179/114441009-cfccb100-9c05-11eb-9780-62067c8670ee.png)
+
+![image](https://user-images.githubusercontent.com/22045179/114441083-e541db00-9c05-11eb-80aa-597c43e4c928.png)
+(흰박스의 경우 ip주소가 쓰여져 있어 가림)
+
+재료에 대하여 자세히 알고 싶은 내용을 질문하면 NLP를 이용하여 질문의 핵심 재료를 찾고 미리 구성된 DB에 해당 재료가 있으면 DB의 문단에서 MRC를 이용하여 질문에 대한 답을 추론하여 사용자에게 출력하고, 미리 구성된 DB에 없다면 WIKIQA API를 이용하여 위키백과에서 답을 추론함.(사용된 open api : https://aiopen.etri.re.kr/)
+CMD의 #################    0.903696114115064    ################## => 유사도측정 결과 값
+이 값이 0.9이상이면 DB에 사용자가 검색한 재료에 대한 내용이 있음.
+0.9이하라면 DB에 해당 내용이 없어 WIKIQA API를 통해 답을 추론함.
