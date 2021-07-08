@@ -3,7 +3,7 @@
 ## 주제 : 머신러닝을 활용한 콘텐츠 추천시스템
 ### 프로젝트 명 : 음식 재료와 건강정보에 따른 음식 및 레시피 추천
 
-### 프로젝트 도메인 : http://todayrecipe.kro.kr or http://www.todayrecipe.kro.kr
+### 도메인 : http://todayrecipe.kro.kr or http://www.todayrecipe.kro.kr
 (chrome 에서 최적화 되어있습니다.)
 
 ---
@@ -12,6 +12,11 @@
 #### AWS에서 oracle서버로 이관 완료
 #### 개인데스크탑PC - API용 서버 구축(API의 경우 AWS EC2의 무료서버의 성능의 한계가 있어 개인 데스크탑PC에서 동작되며, HTTP Request를 통해 서버간 데이터를 주고 받음.)
 (보안상의 이슈로 개인 데스크탑PC에 구축된 API를 상시 가동하기 어려움)
+
+---
+
+## 아래 깃허브 프로젝트 주소에 1년의 회의내용, 문제, 해결방안 등을 기술해 놓음
+### https://github.com/users/xalstnx/projects/2
 
 ---
 
