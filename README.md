@@ -2,6 +2,7 @@
 
 ## 주제 : 머신러닝을 활용한 콘텐츠 추천시스템
 ### 프로젝트 명 : 음식 재료와 건강정보에 따른 음식 및 레시피 추천
+(롯데정보통신 산학 캡스톤)
 
 ### 도메인 : http://todayrecipe.kro.kr or http://www.todayrecipe.kro.kr
 (chrome 에서 최적화 되어있습니다.)
